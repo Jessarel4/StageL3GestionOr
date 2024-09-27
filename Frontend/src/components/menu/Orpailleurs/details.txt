@@ -1,0 +1,21 @@
+<Drawer
+    placement='left'
+    title="Information De l'Orpailleur"
+    width={720}
+    onClose={onCloseDetails}
+    open={openDetails}
+>
+    <p><strong>Numéro d'identification :</strong> {selectedOrpailleur.numeroIdentification}</p>
+    <p><strong>Nom :</strong> {selectedOrpailleur.nom}</p>
+    <p><strong>Prénom :</strong> {selectedOrpailleur.prenom}</p>
+    <p><strong>Adresse :</strong> {selectedOrpailleur.adresse}</p>
+    <p><strong>Sexe :</strong> {selectedOrpailleur.sexe}</p>
+    <p><strong>CIN :</strong> {selectedOrpailleur.cin}</p>
+    <p><strong>Date de délivrance du CIN :</strong> {moment(selectedOrpailleur.dateCin).format('YYYY-MM-DD')}</p>
+    <p><strong>Lieu de délivrance du CIN :</strong> {selectedOrpailleur.lieuCin}</p>
+    <p><strong>Lieu d'Octroi :</strong> {selectedOrpailleur.lieuOctroit}</p>
+    <p><strong>Date d'Octroi :</strong> {moment(selectedOrpailleur.dateOctroit).format('YYYY-MM-DD')}</p>
+    <p><strong>Validité Année :</strong> {selectedOrpailleur.validateAnnee}</p>
+    <p><strong>Stock Orpailleur :</strong> {selectedOrpailleur.stockOrpailleur}</p>
+    <p><strong>ID Commune :</strong> {selectedOrpailleur.communeId}</p>
+</Drawer>

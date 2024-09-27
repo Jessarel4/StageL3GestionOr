@@ -1,0 +1,91 @@
+.fullscreen-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5; /* Couleur de fond claire */
+}
+
+.rowconex {
+    width: 100%;
+    max-width: 1200px; /* Largeur maximale pour le conteneur */
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre légère autour du conteneur principal */
+}
+
+.colconex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.mineimg{
+    position: fixed;
+    margin-top: -370px;
+    /* margin-top: -50vh; */
+}
+.mineimgRP{
+    position: fixed;
+    margin-top: -270px;
+    /* margin-top: -50vh; */
+}
+
+.imageUpdown {
+    width: 100%; /* Rendre l'image responsive */
+    max-width: 600px; /* Largeur maximale de l'image */
+    animation: slideUpDown 2.7s ease-in-out infinite alternate;
+}
+
+@keyframes slideUpDown {
+    0% {
+        transform: translateY(0); /* Position de départ */
+    }
+    100% {
+        transform: translateY(20px); /* Position finale */
+    }
+}
+.colconex2 .ant-form-item-control-input {
+    width: 300px; /* S'assure que le champ Input occupe toute la largeur du conteneur */
+}
+
+
+.colconex2  {
+    /* width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; /* Espacement intérieur */
+    padding-bottom: 10px !important;
+    background-color: white; /* Couleur de fond blanche */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 0 8px 10px rgba(0, 0, 0, 0.372); /* Ombre douce */
+    border-radius: 12px; /* Coins arrondis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation au survol */
+}
+
+.colconex2:hover {
+    transform: translateY(-5px); /* Élévation au survol */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2), 0 12px 20px rgba(0, 0, 0, 0.425); /* Ombre plus marquée au survol */
+}
+
+h2 {
+    margin-bottom: 20px; /* Espacement sous le titre */
+    color: #333; /* Couleur du texte */
+    font-size: 24px; /* Taille de police du titre */
+    font-weight: 600; /* Poids de police */
+}
+
+.ant-input {
+    border-radius: 4px; /* Coins arrondis pour les champs de saisie */
+}
+
+.ant-btn-primary {
+    border-radius: 4px; /* Coins arrondis pour le bouton */
+    background-color: #1890ff; /* Couleur principale du bouton */
+    border: none; /* Pas de bordure */
+}
+
+.ant-btn-primary:hover {
+    background-color: #40a9ff; /* Couleur du bouton au survol */
+}

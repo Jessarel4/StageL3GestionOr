@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+  color: #fff;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+}
+.logo-icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: rgba(28, 17, 41, 0.88);
+
+}
+.menu-bar{
+  height: 88vh;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+  position: relative;
+  
+}
+
+.toggle-theme-btn{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+
+}
+
+.toggle{
+  margin-left: 15px;
+  
+}
+
+.body{
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.site-form-in-drawer-wrapper {
+  position: absolute;
+  inset-inline-end: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 16px;
+  text-align: right;
+  background: #fff;
+  border-top: 1px solid #e9e9e9;
+}
+.hidden-column {
+  width: 0;
+  visibility: hidden; /* Cache le contenu mais maintient l'espace */
+}
+/* //404 */
+.fullscreen-result {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1000;
+}
+/*carosel*/
+
+.head{
+  padding: 0px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.photologiur {
+  display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              align-items: center;
+              width: 120px;
+              justify-content: space-between;
+}
+
+/*homme dots*/
+.slick-dots li button{
+  background-color: #001529 !important;
+}
+
+.slick-arrow{
+  color: #001529 !important;
+
+}
