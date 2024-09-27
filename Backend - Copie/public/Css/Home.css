@@ -1,0 +1,79 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Titre */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Bouton "Create +" */
+  .button-create {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-create:hover {
+    background-color: #45a049;
+  }
+  
+  /* Tableau */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-height: 80vh; /* Hauteur maximale de 80vh */
+    overflow-y: auto; /* Défilement vertical automatique si nécessaire */
+  }
+  
+  /* En-tête du tableau */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Lignes impaires */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Boutons Edit et Delete */
+  .button-edit, .button-delete {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button-edit {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .button-delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button-edit:hover, .button-delete:hover {
+    opacity: 0.8;
+  }

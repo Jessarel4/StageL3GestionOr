@@ -1,0 +1,54 @@
+.suca{
+    position: fixed;
+    background-color: #161515f8;
+    width: calc(100% + 45px);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.sucb{
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    /* box-shadow: 1px 0px 20px; */
+    /* background-color: #ffffff00; */
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.smile{
+    width: 100%;
+}
+.suceimg{
+    width: 100%;
+    animation: rot 0.5s;
+    
+}
+.hiok{
+    color: #fff;
+    animation: rot 0.5s;
+}
+@keyframes rot {
+    0% {
+        transform: scale(0); /* Position de départ (haut) */
+    }
+    25% {
+        transform: scale(0.25); /* Position finale (bas) */
+    }
+    50% {
+        transform: scale(0.5); /* Position finale (bas) */
+    }
+    75% {
+        transform: scale(2); /* Position finale (bas) */
+    }
+    100%{
+        transform: scale(1);
+    }
+}

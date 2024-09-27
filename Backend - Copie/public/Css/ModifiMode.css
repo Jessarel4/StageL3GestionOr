@@ -1,0 +1,33 @@
+.rightModifie{
+    position: fixed;
+    top: -68px;
+    left: -45px;
+    width: 500px;
+    height: calc(100vh - 40px);
+    background-color: #ffffffdd;
+    border-radius: 0 20px 20px 0;
+    animation: rightanim 1s;
+    padding: 20px;
+}
+@keyframes rightanim {
+    0%{
+        width: 0px;
+        border-radius: 0px 100% 100% 0px;
+    }100%{
+        width: 500px;
+        border-radius: 0 20px 20px 0;
+    }
+}
+.rightModifie h3{
+    color: #0d0f2b;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+.rightModifie p{
+    margin-bottom: 0;
+}
+.rightIc{
+    margin-left: calc(100% - 35px);
+}
